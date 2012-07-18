@@ -1,0 +1,11 @@
+body {
+  background-color: #fff;
+  color: #000000;
+}
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: underline;
+}
+<!-- this is the print.css file for printer  -->

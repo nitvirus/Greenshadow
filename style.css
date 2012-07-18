@@ -1,0 +1,858 @@
+
+body {
+  background: #d3d2c6;
+  background-image: url(images/bg.png);
+  background-repeat: repeat;
+  font: 100% Verdana, Geneva, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+
+a:link {
+  color: #366605;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #366605;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+li a.active {
+  color: #57ad00 !important;
+  text-decoration: underline;
+}
+
+a img {
+  border: none;
+}
+
+#page {
+  background-color: #f8f8f8;
+  margin: -18px auto;
+  width: 920px;
+}
+
+#header {
+  background-image: url(images/header1.png);
+  background-repeat: repeat;
+  height: 160px;
+  margin-bottom: 35px;
+  margin-left: -30px;
+  width: 980px;
+}
+
+
+#logo-title {
+  height: auto !important;
+}
+
+#name-and-slogan {
+  padding-left: 20px;
+}
+.block {
+  background-image: url(images/block.png);
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+
+#site-slogan {
+  color: #aad012;
+  margin-left: 139px;
+  margin-top: -39px;
+}
+
+.block h2 {
+  color: #312e1d;
+}
+
+.block .more-link a,
+.node_read_more a {
+  background-image: url(images/more.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  color: #37b0dc;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  padding-right: 29px;
+  text-decoration: none;
+}
+
+
+/* Visited Links that should never look visited */
+.block .more-link a:visited,
+.node_read_more a:visited {
+  color: #37b0dc;
+}
+
+/* Navigation "user" block */
+#block-user-1 {
+  background-image: url(images/block.png);
+}
+
+#block-user-1 h2,
+#block-user-1 h3,
+#block-user-1 h4 {
+  color: #fff;
+}
+
+td.block {
+  background-image: none;
+}
+
+/* Sidebar Styles (both right & left) */
+#sidebar-left {
+  background-color: #f8f8f8;
+  float: left;
+  font-size: 11px;
+  padding: 15px 0;
+  width: 186px;
+}
+
+#sidebar-right {
+  background-color: #f8f8f8;
+  float: right;
+  font-size: 11px;
+  padding: 15px 8px 0px 0px;
+  width: 186px;
+}
+
+#sidebar-left .block,
+#sidebar-right .block {
+  margin-left: 10px;
+}
+
+/* Margins should be set for every element that will be placed in the sidebars */
+#sidebar-left h2,
+#sidebar-left h3,
+#sidebar-left h4,
+#sidebar-left p,
+#sidebar-left .block ul,
+#sidebar-left .block li,
+#sidebar-left .more-link,
+#sidebar-left form,
+#sidebar-right h2,
+#sidebar-right h3,
+#sidebar-right h4,
+#sidebar-right p,
+#sidebar-right .block ul,
+#sidebar-right .block li,
+#sidebar-right .more-link,
+#sidebar-right form {
+  margin: -1px 25px 5px 10px;
+  padding: 1px;
+}
+
+#sidebar-right #search-block-form {
+  padding-top: 9px;
+}
+
+#sidebar-right #edit-submit {
+  cursor: auto;
+  margin-top: 4px;
+}
+
+#sidebar-left h2,
+#sidebar-left h3,
+#sidebar-left h4,
+#sidebar-right h2,
+#sidebar-right h3,
+#sidebar-right h4,
+#sub-header-region h2,
+#sub-header-region h3,
+#sub-header-region h4 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+  height: 25px;
+  margin-bottom: 0;
+  padding-top: 14px;
+}
+
+#footer {
+  color: #000;
+  font-size: 12px;
+}
+
+#sidebar-left div.block.block-block h2,
+#sidebar-right div.block.block-block h2 {
+  height: auto;
+  padding-top: 5px;
+}
+
+#sidebar-left .block ul,
+#sidebar-right .block ul {
+  padding-top: 6px;
+}
+
+#sidebar-left .block li,
+#sidebar-right .block li {
+  font-size: 100%;
+  margin-left: 10px;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+#sidebar-left .block .content,
+#sidebar-right .block .content {
+  background-image: url(images/block-bg.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  padding-bottom: 15px;
+}
+
+/* Custom blocks */
+#sidebar-left .block-block,
+#sidebar-right .block-block {
+  background-image: url(images/block-custom.png);
+  background-repeat: no-repeat;
+  padding-top: 17px;
+}
+
+#block-block-5.block.block-block,
+#block-block-5 div.content {
+  background-image: none !important;
+}
+
+#sidebar-right #block-block-5 h1,
+#sidebar-right #block-block-5 h2,
+#sidebar-right #block-block-5 h3,
+#sidebar-right div.block.block-block h1,
+#sidebar-right div.block.block-block h2,
+#sidebar-left #block-block-5 h1,
+#sidebar-left #block-block-5 h2,
+#sidebar-left #block-block-5 h3,
+#sidebar-left div.block.block-block h1,
+#sidebar-left div.block.block-block h2 {
+  background-image: url(images/dashes.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  color: #312e1d;
+  margin: 0 0 .5em 0;
+  padding-bottom: 5px !important;
+}
+
+#sidebar-right div.block.block-block h1,
+#sidebar-right div.block.block-block h2,
+#sidebar-right div.block.block-block h3,
+#sidebar-left div.block.block-block h1,
+#sidebar-left div.block.block-block h2,
+#sidebar-left div.block.block-block h3 {
+  margin-left: 11px;
+}
+
+#sidebar-right #block-block-5 h3,
+#sidebar-left #block-block-5 h3 {
+  background-image: none;
+  margin-bottom: 0px;
+}
+
+div.block div.item-list a,
+div.block ul.menu a {
+  color: #7e7550;
+  text-decoration: none;
+}
+
+div.block div.item-list a:hover,
+div.block ul.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Main content area styles */
+#main {
+  color: #333;
+  float: left;
+  font-size: .9em;
+  padding: 0 20px 10px 30px;
+  width: 390px;
+}
+
+#main h2 {
+  /* background-image: url(images/main.png); */ /* removed the backgroud image as not looking good*/
+  background-position: bottom;
+  background-repeat: repeat-x;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.6em;
+  font-weight: normal;
+  padding-bottom: .25em;
+}
+
+#main h2 a:visited,
+#main h2 a {
+  color: #37b0dc;
+  text-decoration: none;
+}
+
+#main h2 a:hover {
+  text-decoration: none;
+}
+
+#content {
+  font-size: .9em;
+  margin-top: 15px;
+}
+
+#page-title {
+  color: #a4c445;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.8em;
+  font-weight: normal;
+}
+
+#content .meta {
+  color: #7e7550;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content p {
+  line-height: 1.5em;
+}
+
+#content a:link {
+  color: #37b0dc !important;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+#content a:hover {
+  text-decoration: underline;
+}
+
+#content ul.links.inline {
+  float: right;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  margin: 0 15px 2em 0;
+  padding: 0;
+}
+#content ul.pager {
+  margin-top: 1.5em;
+}
+
+#content ul.pager a {
+  color: #37b0dc !important;
+  text-decoration: none;
+}
+#content ul.pager a:hover {
+  text-decoration: underline;
+}
+
+#content ul.links.inline li,
+ul.pager li {
+  border-right: 1px solid #b2e55d;
+  margin: 0 10px 0 0;
+  padding: 0 10px 0 0;
+}
+#content ul.pager li {
+  margin: 0 10px 0 0;
+  padding: 0 15px 0 0;
+}
+
+#content ul.links.inline .last,
+ul.pager li.last {
+  border: none;
+  padding-right: 0;
+}
+
+/* Miscellaneous classes for reuse */
+.floatRight {
+  float: right;
+  margin-left: 8px;
+}
+
+.floatLeft {
+  float: left;
+  margin-right: 8px;
+}
+
+/* Footer Content styles */
+#footer-content-wrapper {
+  float: left;
+  margin-left: -25px !important;
+  margin-top: 0;
+  padding: 0px;
+  width: 833px;
+}
+
+#footer-content {
+  border: 1px dotted #b3e55d;
+  float: left;
+  margin: 49px 25px 0;
+  padding: 0 21px 21px;
+  width: 876px;
+}
+
+#footer-content h2,
+#footer-content h3,
+#footer-content h4 {
+  margin-bottom: .25em;
+}
+
+.footer-content-top {
+  background-image: url(images/footer-block-top.png);
+  background-repeat: no-repeat;
+  height: 7px;
+}
+
+#footer-content ul,
+#footer-content li {
+  margin-left: 10px;
+  padding: 0;
+}
+
+
+#footer-content-3,
+#footer-content-2,
+#footer-content-1 {
+  float: left;
+  width: 260px;
+}
+
+
+#footer-content-2 .footer-content-top {
+  display: none;
+}
+
+#footer-content-2 {
+  text-align: center;
+}
+
+#footer-content-3,
+#footer-content-1 {
+  background: #f8f8f8;
+  background-image: url(images/footer-block-bottom.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+
+#footer-content-1,
+#footer-content-2 {
+  margin-right: 18px;
+}
+
+#footer-content h2 {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+#footer-content-3 .block,
+#footer-content-2 .block,
+#footer-content-1 .block {
+  background-image: none;
+  font-size: .8em;
+  margin-bottom: 0;
+  padding: 0px 15px 15px 15px !important;
+}
+
+#footer-wrapper {
+  background: #d3d2c6;
+  background-image: url(images/footer.png);
+  background-repeat: repeat;
+  clear: both;
+  color: #f8f8f8;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  height: 118px;
+  margin-left: -28px;
+  padding: 50px 0 0;
+  text-align: center;
+  width: 980px;
+}
+
+#footer .block {
+  background-image: none;
+}
+
+#footer .block h2 {
+  display: none;
+}
+
+#footer {
+  font-size: 12px;
+}
+
+#footer .content {
+  float: left;
+  left: 40%;
+  margin: 0;
+  padding: 0 0 25px 0;
+  position: relative;
+  text-align: left;
+}
+#footer div.content ul.menu {
+  float: none;
+  left: -50%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#footer li {
+  border-right: 1px solid #b2e55d;
+  color: #37b0dc;
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0 5px 0 0;
+  padding: 0 5px 0 0;
+}
+
+#footer .leaf.last {
+  border: none;
+}
+
+#footer li a:link,
+#footer li a:hover,
+#footer li a:visited,
+#footer li a:active {
+  color: #37b0dc;
+}
+
+
+#footer li,
+#navigation,
+.block h2,
+.block h3,
+.block h4,
+.form-submit {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#navigation {
+  background-image: url(images/navigation.png);
+  color: #fff;
+  height: 60px;
+  margin: 0;
+  padding-top: 0px;
+  position: relative;
+  text-align: right;
+}
+
+#navigation ul.links li {
+  margin-right: 0px;
+}
+
+#navigation ul.links li a:link,
+#navigation ul.links li a:visited,
+#navigation ul.links li a:hover,
+#navigation ul.links li a:active {
+  color: #366605;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+
+#navigation #primary ul.links li a {
+  color: #366605;
+}
+
+#navigation ul.links li a:hover,
+#navigation ul.links a.active {
+  background-image: url(images/nav.gif);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+ul {
+  /* margin: 7px  1px !important; */ /*removed for using nice menus*/
+  padding: 0;
+}
+
+ol {
+  margin: 0.75em 0 1.25em;
+  padding: 0;
+}
+
+ul.menu,
+.item-list ul {
+  margin: 0.35em 0 0 -0.5em; /* LTR */
+  padding: 0;
+}
+
+ul.menu ul,
+.item-list ul ul {
+  margin-left: 0em; /* LTR */
+}
+
+
+ul li,
+ul.menu li,
+.item-list ul li,
+li.leaf {
+  list-style-image: url(images/menu-leaf.png);
+  list-style-type: none;
+  padding: 0 0 .2em 1.5em; /*no padding given to the menu items*/
+}
+
+ol li {
+  margin-left: 2em; /* LTR */
+  padding: 0 0 .3em;
+}
+
+ul li.expanded {
+  list-style-image: url(images/menu-expanded.png);
+}
+
+ul li.collapsed {
+  list-style-image: url(images/menu-collapsed.png) !important; /* LTR */
+}
+
+ul li.leaf a,
+ul li.expanded a,
+ul li.collapsed a {
+  display: block;
+}
+
+ul.inline li {
+  background: none;
+  margin: 0;
+  padding: 0 1em 0 0; /* LTR */
+}
+
+.clear-block:after,
+#page:after,
+#block-menu-primary-links:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.clear-block,
+#page,
+#block-menu-primary-links {
+  display: inline-block;
+}
+
+/* Hides from IE-mac */
+* html .clear-block,
+* html #page,
+* html #block-menu-primary-links {
+  height: 1%;
+}
+
+.clear-block,
+#page,
+#block-menu-primary-links {
+  display: block;
+}
+/* End hide from IE-mac */
+/* When the Search is in the #header, it should be displayed differently */
+#header #block-search-0,
+#header #search-box {
+  background-image: none;
+  float: right;
+  padding: 1px 12px 0 0;
+}
+
+/* Styles that hide HTML that I would rather hide by removing them from source code! */
+#header #block-search-0 h2 {
+  display: none; /* Heading that says Search */
+}
+
+/* Always hide the Label that says "Search this site:" */
+#edit-search-block-form-1-wrapper label,
+#edit-search-theme-form-1-wrapper label {
+  display: none;
+}
+
+
+#breadcrumb {
+  /* display: none; */
+  font-size: 9px;
+  padding-top: 18px;
+}
+
+/* Form Styles */
+.form-text {
+  border: 1px solid #a4c445;
+}
+
+.form-submit {
+  background-color: #8eab36;
+  border: 1px solid #fff;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  color: #fff;
+  padding-left: 7px;
+  padding-right: 7px;
+  -khtml-border-radius-topleft: 8px;
+  -khtml-border-radius-bottomright: 8px;
+  -moz-border-radius-topleft: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -webkit-border-top-left-radius: 8px;
+}
+
+/* Login Form Styles */
+#user-login-form {
+  color: #333;
+}
+
+#user-login-form .form-item {
+  text-align: left;
+}
+
+#user-login-form .form-item input {
+  width: 130px;
+}
+
+#user-login-form label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-bottom: .2em;
+  text-transform: lowercase;
+}
+
+#user-login-form a {
+  color: #37b0dc;
+}
+
+#user-login-form div.item-list {
+  padding-top: .5em;
+}
+
+#user-login-form div.item-list ul,
+#user-login-form div.item-list ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Messages */
+.messages {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.status {
+  background-color: #b0dff1;
+}
+
+.warning {
+  background-color: #fffcdf;
+}
+
+.error {
+  background-color: #00;
+}
+
+
+.new {
+  color: #8eab36;
+  font-weight: bold;
+}
+
+
+/* Comments */
+#comments {
+  margin-top: 30px;
+}
+
+.comment {
+  border-top: 1px solid #dedede;
+  color: #312e1d;
+  margin-bottom: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.comment-new {
+  background-color: #f7ffdf;
+}
+
+.comment .submitted {
+  font-size: 0.5em;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.comment-preview {
+  padding: 12px 15px;
+}
+
+.comment .links {
+  text-align: right;
+}
+
+.in-maintenance #content {
+  height: 400px;
+}
+
+/* remove any previously set margins and paddings */
+#block-menu-primary-links * {
+  margin: 0;
+  padding: 0;
+}
+
+/* set width/height on <li>, <a>, <li><ul> */
+#block-menu-primary-links li ul,
+#block-menu-primary-links li,
+#block-menu-primary-links a {
+  height: 25px;
+  width: 125px;
+}
+
+/* remove <li> list styling off */
+#block-menu-primary-links li {
+  list-style: none;
+}
+
+/* display <a> as block */
+#block-menu-primary-links a {
+  display: block;
+}
+
+/* set <li> position */
+#block-menu-primary-links li {
+  float: left;
+  position: relative;
+}
+
+/* set position of <ul> in <li> */
+#block-menu-primary-links li ul {
+  left: 0px;
+  position: absolute;
+  top: 25px;
+}
+
+/* position child <ul> */
+#block-menu-primary-links li ul ul {
+  margin: -25px 0 0 125px;
+}
+
+/* limit width of form inputs */
+.textarea,
+.form-item input,
+.form-item select,
+#content-region input.form-text {
+  max-width: 95%;
+}
+
+.view-content {
+  padding-top: 12px;
+}
+
+/*please comment this style when drop-down/nicemenu is enable*/
+#primary {
+  padding: 0.3em 5px 0.5em 5px;
+}

@@ -1,0 +1,20 @@
+name = greenshadow
+description = nit'stheme
+screenshot = screenshot.png
+
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+
+regions[header] = Header
+regions[sub_header] = Sub Header
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+
+regions[footer_content_1] = Footer Content 1
+regions[footer_content_2] = Footer Content 2
+regions[footer_content_3] = Footer Content 3
+regions[footer] = Footer
